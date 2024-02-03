@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.ItemsContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+.Arrowimage {
+  width: 60px;
+}
+.btnEl {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

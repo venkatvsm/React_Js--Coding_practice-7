@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card_container {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: black;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.searchlogoContainer {
+  display: flex;
+}
+.googleImage {
+  width: 50%;
+}
+.search_container {
+  margin-top: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 80%;
+}
+.searchImage {
+  width: 60px;
+}
+.searchInputEl {
+  border-style: solid;
+  width: 380px;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.SearchSuggestions {
+  width: 90%;
+}
