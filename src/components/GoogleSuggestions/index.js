@@ -12,7 +12,7 @@ class GoogleSuggestions extends Component {
 
   onChangeSearchInput = event => {
     console.log(event.target.value)
-    this.setState = {searchInput: event.target.value}
+    this.setState({searchInput: event.target.value})
   }
 
   render() {
